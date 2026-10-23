@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wrought Systems: Rust consultancy</title>
+<meta name="description" content="Wrought Systems is a Rust consultancy that builds and rescues serious systems software. Our website is coming soon.">
+<link rel="canonical" href="https://wrought.systems/">
+<meta property="og:title" content="Wrought Systems">
+<meta property="og:description" content="A Rust consultancy. Website coming soon.">
+<meta property="og:url" content="https://wrought.systems/">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23221f1d'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='22' font-weight='700' text-anchor='middle' fill='%23e8723a'%3Ew%3C/text%3E%3C/svg%3E">
+<meta name="color-scheme" content="dark light">
+<style>
+  :root {
+    --bg: #f6f1ea;
+    --fg: #25211e;
+    --muted: #6b625b;
+    --accent: #b8501c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1a18;
+      --fg: #f3ece2;
+      --muted: #a39a90;
+      --accent: #e8723a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { height: 100%; }
+  body {
+    margin: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+  }
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    max-width: 40rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3rem, 14vw, 5.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1;
+  }
+  h1 span { color: var(--accent); }
+  p.tagline {
+    margin: 1.5rem 0 0;
+    font-size: 1.25rem;
+  }
+  p.status {
+    margin: 0.75rem 0 0;
+    color: var(--muted);
+  }
+  footer {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>wrought<span>.</span></h1>
+  <p class="tagline">A Rust consultancy. Serious systems software, built with care.</p>
+  <p class="status">Our website is coming soon.</p>
+</main>
+<footer>Wrought Systems (Pty) Ltd · Reg. No. 2026/833481/07 · South Africa</footer>
+</body>
+</html>
